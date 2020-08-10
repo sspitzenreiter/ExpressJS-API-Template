@@ -1,0 +1,7 @@
+{
+    "development":{
+        "db":"https://whois.com/apis"
+    },"production":{
+        "db":"https://whois.com/apis"
+    }
+}

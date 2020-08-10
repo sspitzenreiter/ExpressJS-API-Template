@@ -1,0 +1,46 @@
+{
+    "name": "disddik",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test:jest": "jest",
+        "start": "nodemon server.js",
+        "start:prod": "node server.js"
+    },
+    "author": "tikomdik_jabar",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^3.2.0",
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "cluster": "^0.7.7",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
+        "express-validator": "^6.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^3.5.9",
+        "mongoose": "^5.9.20",
+        "morgan": "^1.10.0",
+        "node-redis": "^0.1.7",
+        "nodemon": "^2.0.4",
+        "pg": "^8.2.1",
+        "pg-hstore": "^2.3.3",
+        "sequelize": "^6.3.0",
+        "uuid-validate": "0.0.3",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "jest": "^26.1.0",
+        "mocha": "^8.0.1",
+        "mocha-junit-reporter": "^2.0.0",
+        "supertest": "^4.0.2"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+            "/node_modules/"
+        ]
+    }
+}
